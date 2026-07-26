@@ -57,3 +57,20 @@ This project is provided for educational and research purposes.
 
 ```
 ```
+
+## Decryptor usage
+
+```bash
+EXAMPLES:
+  # Decrypt all logs in a directory
+  python decryptor.py -i ./SysCache -o ./decrypted
+  
+  # Decrypt a specific log file
+  python decryptor.py -i ./SysCache/cache.dat -o ./decrypted
+  
+  # Decrypt config file
+  python decryptor.py --config ./SysCache/settings.enc -o ./decrypted
+  
+  # Try to recover key from system
+  python decryptor.py --recover-key ./SysCache/sys.key
+  ```
