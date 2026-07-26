@@ -47,12 +47,6 @@ cd <repository-name>
 pip install -r requirements.txt
 ````
 
-## Usage
-
-```bash
-python main.py
-```
-
 ## Disclaimer
 
 This project is intended solely for educational purposes and authorized security research. It should only be used on systems for which you have explicit authorization. The author assumes no responsibility for misuse or illegal use of this software.
